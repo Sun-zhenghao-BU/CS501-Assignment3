@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/anthony/Downloads/Lecture3Examples/7. Your Second Activity/Solution/GeoQuiz/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-fr-rCA/values-fr-rCA.xml",
+            "outputFile": "/Users/anthony/AndroidStudioProjects/Assignment3/GeoQuiz/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-fr-rCA/values-fr-rCA.xml",
             "map": [
                 {
                     "source": "/Users/anthony/.gradle/caches/transforms-3/086bd7ed35231f0615e068bb616ae458/transformed/core-1.7.0/res/values-fr-rCA/values-fr-rCA.xml",

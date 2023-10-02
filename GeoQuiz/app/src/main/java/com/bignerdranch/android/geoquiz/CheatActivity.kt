@@ -14,7 +14,6 @@ private const val EXTRA_ANSWER_IS_TRUE =
 class CheatActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityCheatBinding
-
     private var answerIsTrue = false
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -31,6 +30,13 @@ class CheatActivity : AppCompatActivity() {
             }
             binding.answerTextView.setText(answerText)
             setAnswerShownResult(true)
+
+            // Save cheat status
+            val sharedPref = getSharedPreferences("GeoQuizPrefs", Context.MODE_PRIVATE)
+            with(sharedPref.edit()) {
+                putBoolean("hasCheated", true)
+                apply()
+            }
         }
     }
 

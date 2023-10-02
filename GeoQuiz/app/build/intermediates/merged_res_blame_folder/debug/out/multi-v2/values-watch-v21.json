@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/anthony/Downloads/Lecture3Examples/7. Your Second Activity/Solution/GeoQuiz/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-watch-v21/values-watch-v21.xml",
+            "outputFile": "/Users/anthony/AndroidStudioProjects/Assignment3/GeoQuiz/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-watch-v21/values-watch-v21.xml",
             "map": [
                 {
                     "source": "/Users/anthony/.gradle/caches/transforms-3/6e550d7cf85da14e1e1a86136991fb9e/transformed/appcompat-1.4.1/res/values-watch-v21/values-watch-v21.xml",

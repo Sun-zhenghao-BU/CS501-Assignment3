@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/anthony/Downloads/Lecture3Examples/7. Your Second Activity/Solution/GeoQuiz/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+            "outputFile": "/Users/anthony/AndroidStudioProjects/Assignment3/GeoQuiz/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
             "map": [
                 {
                     "source": "/Users/anthony/.gradle/caches/transforms-3/a08de1714b0a022366b8c8bc2da824e7/transformed/coordinatorlayout-1.1.0/res/values/values.xml",
@@ -59,41 +59,20 @@
                     }
                 },
                 {
-                    "source": "/Users/anthony/Downloads/Lecture3Examples/7. Your Second Activity/Solution/GeoQuiz/app/src/main/res/values/strings.xml",
+                    "source": "/Users/anthony/AndroidStudioProjects/Assignment3/GeoQuiz/app/src/main/res/values/colors.xml",
                     "from": {
-                        "startLines": "1,19,15,13,16,20,14,7,8,10,2,5,3,18,12,17",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "16,1048,808,716,859,1096,763,362,448,557,61,251,146,989,671,914",
-                        "endLines": "1,19,15,13,16,20,14,7,9,11,2,6,4,18,12,17",
-                        "endColumns": "44,47,50,46,54,61,44,85,33,33,84,38,36,58,44,74",
-                        "endOffsets": "56,1091,854,758,909,1153,803,443,552,666,141,357,246,1043,711,984"
+                        "startLines": "7,2,3,4,5,6,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "286,55,102,149,196,241,328",
+                        "endColumns": "41,46,46,46,44,44,41",
+                        "endOffsets": "323,97,144,191,236,281,365"
                     },
                     "to": {
-                        "startLines": "1593,1600,1603,1608,1611,1613,1695,1701,1702,1704,1706,1707,1709,1712,1714,1715",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "96969,97831,98006,98525,98879,98993,111092,111939,112025,112134,112248,112333,112444,112602,112732,112777",
-                        "endLines": "1593,1600,1603,1608,1611,1613,1695,1701,1703,1705,1706,1708,1710,1712,1714,1715",
-                        "endColumns": "44,47,50,46,54,61,44,85,33,33,84,38,36,58,44,74",
-                        "endOffsets": "97009,97874,98052,98567,98929,99050,111132,112020,112129,112243,112328,112439,112544,112656,112772,112847"
-                    }
-                },
-                {
-                    "source": "/Users/anthony/Downloads/Lecture3Examples/7. Your Second Activity/Solution/GeoQuiz/app/src/main/res/values/themes.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "100",
-                        "endLines": "14",
-                        "endColumns": "12",
-                        "endOffsets": "816"
-                    },
-                    "to": {
-                        "startLines": "5559",
-                        "startColumns": "4",
-                        "startOffsets": "379190",
-                        "endLines": "5571",
-                        "endColumns": "12",
-                        "endOffsets": "379904"
+                        "startLines": "586,804,805,806,817,818,822",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "29799,45453,45500,45547,46291,46336,46544",
+                        "endColumns": "41,46,46,46,44,44,41",
+                        "endOffsets": "29836,45495,45542,45589,46331,46376,46581"
                     }
                 },
                 {
@@ -114,20 +93,41 @@
                     }
                 },
                 {
-                    "source": "/Users/anthony/Downloads/Lecture3Examples/7. Your Second Activity/Solution/GeoQuiz/app/src/main/res/values/colors.xml",
+                    "source": "/Users/anthony/AndroidStudioProjects/Assignment3/GeoQuiz/app/src/main/res/values/themes.xml",
                     "from": {
-                        "startLines": "7,2,3,4,5,6,8",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "286,55,102,149,196,241,328",
-                        "endColumns": "41,46,46,46,44,44,41",
-                        "endOffsets": "323,97,144,191,236,281,365"
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "100",
+                        "endLines": "14",
+                        "endColumns": "12",
+                        "endOffsets": "816"
                     },
                     "to": {
-                        "startLines": "586,804,805,806,817,818,822",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "29799,45453,45500,45547,46291,46336,46544",
-                        "endColumns": "41,46,46,46,44,44,41",
-                        "endOffsets": "29836,45495,45542,45589,46331,46376,46581"
+                        "startLines": "5559",
+                        "startColumns": "4",
+                        "startOffsets": "379190",
+                        "endLines": "5571",
+                        "endColumns": "12",
+                        "endOffsets": "379904"
+                    }
+                },
+                {
+                    "source": "/Users/anthony/AndroidStudioProjects/Assignment3/GeoQuiz/app/src/main/res/values/strings.xml",
+                    "from": {
+                        "startLines": "1,19,15,13,16,20,14,7,8,10,2,5,3,18,12,17",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "16,1048,808,716,859,1096,763,362,448,557,61,251,146,989,671,914",
+                        "endLines": "1,19,15,13,16,20,14,7,9,11,2,6,4,18,12,17",
+                        "endColumns": "44,47,50,46,54,61,44,85,33,33,84,38,36,58,44,74",
+                        "endOffsets": "56,1091,854,758,909,1153,803,443,552,666,141,357,246,1043,711,984"
+                    },
+                    "to": {
+                        "startLines": "1593,1600,1603,1608,1611,1613,1695,1701,1702,1704,1706,1707,1709,1712,1714,1715",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "96969,97831,98006,98525,98879,98993,111092,111939,112025,112134,112248,112333,112444,112602,112732,112777",
+                        "endLines": "1593,1600,1603,1608,1611,1613,1695,1701,1703,1705,1706,1708,1710,1712,1714,1715",
+                        "endColumns": "44,47,50,46,54,61,44,85,33,33,84,38,36,58,44,74",
+                        "endOffsets": "97009,97874,98052,98567,98929,99050,111132,112020,112129,112243,112328,112439,112544,112656,112772,112847"
                     }
                 },
                 {
