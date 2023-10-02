@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/number1TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="number 1"
+        android:textSize="24sp"/>
+
+    <TextView
+        android:id="@+id/operatorTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="operator"
+        android:textSize="24sp"/>
+
+    <TextView
+        android:id="@+id/number2TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="number2"
+        android:textSize="24sp"/>
+
+    <Button
+        android:id="@+id/StartButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="start"
+        android:textSize="24sp"/>
+    <EditText
+        android:id="@+id/inputAnsEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Your Answer"
+        android:inputType="numberSigned" />
+    <Button
+        android:id="@+id/SubmitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="submit"
+        android:textSize="24sp"/>
+
+
+</LinearLayout>
