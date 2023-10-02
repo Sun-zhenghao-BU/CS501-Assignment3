@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/anthony/Downloads/Lecture3Examples/7. Your Second Activity/Solution/GeoQuiz/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-be/values-be.xml",
+            "outputFile": "/Users/anthony/AndroidStudioProjects/Assignment3/GeoQuiz/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-be/values-be.xml",
             "map": [
                 {
                     "source": "/Users/anthony/.gradle/caches/transforms-3/a5afaed4eb7d69b30540b053d8bcc22c/transformed/material-1.5.0/res/values-be/values-be.xml",
