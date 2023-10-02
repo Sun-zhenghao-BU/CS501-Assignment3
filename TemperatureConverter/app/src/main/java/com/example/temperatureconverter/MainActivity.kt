@@ -4,6 +4,7 @@ import android.os.Bundle
 import android.widget.SeekBar
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
+import com.google.android.material.snackbar.Snackbar
 
 
 class MainActivity : AppCompatActivity() {
@@ -13,6 +14,8 @@ class MainActivity : AppCompatActivity() {
 
     private lateinit var textViewCelsius : TextView;
     private lateinit var textViewFahrenheit : TextView;
+
+    private var wasBelow20: Boolean? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -27,10 +30,18 @@ class MainActivity : AppCompatActivity() {
         seekBarCelsius.setOnSeekBarChangeListener(object : SeekBar.OnSeekBarChangeListener {
             override fun onProgressChanged(seekBar: SeekBar, progress: Int, fromUser: Boolean) {
                 if (fromUser) {
-                    val fahrenheitValue = celsiusToFahrenheit(progress)
-                    seekBarFahrenheit.progress = fahrenheitValue;
-                    textViewCelsius.text = "$progress"
-                    textViewFahrenheit.text = "$fahrenheitValue"
+                    val fahrenheitValue = celsiusToFahrenheit(progress.toDouble())
+                    seekBarFahrenheit.progress = fahrenheitValue.toInt()
+                    textViewCelsius.text = String.format("%.2f°C", progress.toDouble())
+                    textViewFahrenheit.text = String.format("%.2f°F", fahrenheitValue)
+
+                    if (progress <= 20 && (wasBelow20 == null || !wasBelow20!!)) {
+                        Snackbar.make(seekBar, "I wish it were warmer.", Snackbar.LENGTH_SHORT).show()
+                        wasBelow20 = true
+                    } else if (progress > 20 && (wasBelow20 == null || wasBelow20!!)) {
+                        Snackbar.make(seekBar, "I wish it were colder.", Snackbar.LENGTH_SHORT).show()
+                        wasBelow20 = false
+                    }
                 }
             }
 
@@ -44,26 +55,31 @@ class MainActivity : AppCompatActivity() {
         seekBarFahrenheit.setOnSeekBarChangeListener(object : SeekBar.OnSeekBarChangeListener {
             override fun onProgressChanged(seekBar: SeekBar, progress: Int, fromUser: Boolean) {
                 if (fromUser) {
-                    val celsiusValue = fahrenheitToCelsius(progress)
-                    seekBarCelsius.progress = celsiusValue;
-                    textViewFahrenheit.text = "$progress"
-                    textViewCelsius.text = "$celsiusValue"
+                    val celsiusValue = fahrenheitToCelsius(progress.toDouble())
+                    seekBarCelsius.progress = celsiusValue.toInt()
+                    textViewFahrenheit.text = String.format("%.2f°F", progress.toDouble())
+                    textViewCelsius.text = String.format("%.2f°C", celsiusValue)
                 }
             }
 
             override fun onStartTrackingTouch(p0: SeekBar?) {
             }
 
-            override fun onStopTrackingTouch(p0: SeekBar?) {
+            override fun onStopTrackingTouch(seekBar: SeekBar?) {
+                if ((seekBar?.progress ?: 0) < 32) {
+                    seekBar?.progress = 32
+                    textViewFahrenheit.text = String.format("%.2f°F", 32.0)
+                    textViewCelsius.text = String.format("%.2f°C", 0.0)
+                }
             }
         })
     }
 
-    private fun celsiusToFahrenheit(celsius: Int): Int {
-        return ((celsius * 9.0 / 5.0) + 32).toInt()
+    private fun celsiusToFahrenheit(celsius: Double, ): Double {
+        return ((celsius * 9.0 / 5.0) + 32)
     }
 
-    private fun fahrenheitToCelsius(fahrenheit: Int): Int {
-        return ((fahrenheit - 32) * 5.0/9.0).toInt()
+    private fun fahrenheitToCelsius(fahrenheit: Double): Double {
+        return ((fahrenheit - 32) * 5.0/9.0)
     }
 }
