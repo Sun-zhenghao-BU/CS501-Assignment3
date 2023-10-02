@@ -1,6 +1,5 @@
 package com.example.flashcard
 
-
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
@@ -29,9 +28,6 @@ class MainActivity : AppCompatActivity() {
                 Toast.makeText(this, "Invalid username or password", Toast.LENGTH_SHORT).show()
             }
         }
-
-
-
 
     }
 }
