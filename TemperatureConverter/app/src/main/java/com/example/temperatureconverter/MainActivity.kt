@@ -26,6 +26,7 @@ class MainActivity : AppCompatActivity() {
 
         textViewCelsius = findViewById(R.id.Tv_C_show)
         textViewFahrenheit = findViewById(R.id.Tv_F_show)
+        textViewFahrenheit.text = String.format("%.2f°F", 32.00)
 
         seekBarCelsius.setOnSeekBarChangeListener(object : SeekBar.OnSeekBarChangeListener {
             override fun onProgressChanged(seekBar: SeekBar, progress: Int, fromUser: Boolean) {
