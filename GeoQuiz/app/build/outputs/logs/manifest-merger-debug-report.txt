@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/anthony/Downloads/Lecture3Examples/7. Your Second Activity/Solution/GeoQuiz/app/src/main/AndroidManifest.xml:2:1-26:12
-INJECTED from /Users/anthony/Downloads/Lecture3Examples/7. Your Second Activity/Solution/GeoQuiz/app/src/main/AndroidManifest.xml:2:1-26:12
-INJECTED from /Users/anthony/Downloads/Lecture3Examples/7. Your Second Activity/Solution/GeoQuiz/app/src/main/AndroidManifest.xml:2:1-26:12
-INJECTED from /Users/anthony/Downloads/Lecture3Examples/7. Your Second Activity/Solution/GeoQuiz/app/src/main/AndroidManifest.xml:2:1-26:12
+ADDED from /Users/anthony/AndroidStudioProjects/Assignment3/GeoQuiz/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /Users/anthony/AndroidStudioProjects/Assignment3/GeoQuiz/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /Users/anthony/AndroidStudioProjects/Assignment3/GeoQuiz/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /Users/anthony/AndroidStudioProjects/Assignment3/GeoQuiz/app/src/main/AndroidManifest.xml:2:1-26:12
 MERGED from [androidx.databinding:viewbinding:7.1.2] /Users/anthony/.gradle/caches/transforms-3/e8667ba91d1e792e9b0beaf69708e091/transformed/jetified-viewbinding-7.1.2/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.activity:activity-ktx:1.4.0] /Users/anthony/.gradle/caches/transforms-3/edbfaf1c36d91b713f5e52fbfc2c2a25/transformed/jetified-activity-ktx-1.4.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.1] /Users/anthony/.gradle/caches/transforms-3/c11da4052f50ef04fc400119304e8dfc/transformed/jetified-lifecycle-viewmodel-ktx-2.4.1/AndroidManifest.xml:17:1-24:12
@@ -49,25 +49,25 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/anthony/.gradle/ca
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/anthony/.gradle/caches/transforms-3/b72b15ce48fc8412230874cd0309f323/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] /Users/anthony/.gradle/caches/transforms-3/d3fce6ae6147eb9dbd48d4b6a953b2e2/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/anthony/.gradle/caches/transforms-3/7d75f8b917a8151c0df7502128ce7b16/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
-INJECTED from /Users/anthony/Downloads/Lecture3Examples/7. Your Second Activity/Solution/GeoQuiz/app/src/main/AndroidManifest.xml:2:1-26:12
-INJECTED from /Users/anthony/Downloads/Lecture3Examples/7. Your Second Activity/Solution/GeoQuiz/app/src/main/AndroidManifest.xml:2:1-26:12
-INJECTED from /Users/anthony/Downloads/Lecture3Examples/7. Your Second Activity/Solution/GeoQuiz/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /Users/anthony/AndroidStudioProjects/Assignment3/GeoQuiz/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /Users/anthony/AndroidStudioProjects/Assignment3/GeoQuiz/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /Users/anthony/AndroidStudioProjects/Assignment3/GeoQuiz/app/src/main/AndroidManifest.xml:2:1-26:12
 	package
-		ADDED from /Users/anthony/Downloads/Lecture3Examples/7. Your Second Activity/Solution/GeoQuiz/app/src/main/AndroidManifest.xml:3:5-47
-		INJECTED from /Users/anthony/Downloads/Lecture3Examples/7. Your Second Activity/Solution/GeoQuiz/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/anthony/Downloads/Lecture3Examples/7. Your Second Activity/Solution/GeoQuiz/app/src/main/AndroidManifest.xml
+		ADDED from /Users/anthony/AndroidStudioProjects/Assignment3/GeoQuiz/app/src/main/AndroidManifest.xml:3:5-47
+		INJECTED from /Users/anthony/AndroidStudioProjects/Assignment3/GeoQuiz/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/anthony/AndroidStudioProjects/Assignment3/GeoQuiz/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/anthony/Downloads/Lecture3Examples/7. Your Second Activity/Solution/GeoQuiz/app/src/main/AndroidManifest.xml
-		ADDED from /Users/anthony/Downloads/Lecture3Examples/7. Your Second Activity/Solution/GeoQuiz/app/src/main/AndroidManifest.xml:2:1-26:12
-		INJECTED from /Users/anthony/Downloads/Lecture3Examples/7. Your Second Activity/Solution/GeoQuiz/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/anthony/AndroidStudioProjects/Assignment3/GeoQuiz/app/src/main/AndroidManifest.xml
+		ADDED from /Users/anthony/AndroidStudioProjects/Assignment3/GeoQuiz/app/src/main/AndroidManifest.xml:2:1-26:12
+		INJECTED from /Users/anthony/AndroidStudioProjects/Assignment3/GeoQuiz/app/src/main/AndroidManifest.xml
 	android:versionCode
-		INJECTED from /Users/anthony/Downloads/Lecture3Examples/7. Your Second Activity/Solution/GeoQuiz/app/src/main/AndroidManifest.xml
-		ADDED from /Users/anthony/Downloads/Lecture3Examples/7. Your Second Activity/Solution/GeoQuiz/app/src/main/AndroidManifest.xml:2:1-26:12
-		INJECTED from /Users/anthony/Downloads/Lecture3Examples/7. Your Second Activity/Solution/GeoQuiz/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/anthony/AndroidStudioProjects/Assignment3/GeoQuiz/app/src/main/AndroidManifest.xml
+		ADDED from /Users/anthony/AndroidStudioProjects/Assignment3/GeoQuiz/app/src/main/AndroidManifest.xml:2:1-26:12
+		INJECTED from /Users/anthony/AndroidStudioProjects/Assignment3/GeoQuiz/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/anthony/Downloads/Lecture3Examples/7. Your Second Activity/Solution/GeoQuiz/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /Users/anthony/AndroidStudioProjects/Assignment3/GeoQuiz/app/src/main/AndroidManifest.xml:2:11-69
 application
-ADDED from /Users/anthony/Downloads/Lecture3Examples/7. Your Second Activity/Solution/GeoQuiz/app/src/main/AndroidManifest.xml:5:5-24:19
+ADDED from /Users/anthony/AndroidStudioProjects/Assignment3/GeoQuiz/app/src/main/AndroidManifest.xml:5:5-24:19
 MERGED from [com.google.android.material:material:1.5.0] /Users/anthony/.gradle/caches/transforms-3/a5afaed4eb7d69b30540b053d8bcc22c/transformed/material-1.5.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.5.0] /Users/anthony/.gradle/caches/transforms-3/a5afaed4eb7d69b30540b053d8bcc22c/transformed/material-1.5.0/AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] /Users/anthony/.gradle/caches/transforms-3/a5ed4e03427e1227dfd01f556582112a/transformed/constraintlayout-2.1.3/AndroidManifest.xml:9:5-20
@@ -85,43 +85,43 @@ MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/anthony/.gradle/cach
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.7.0] /Users/anthony/.gradle/caches/transforms-3/086bd7ed35231f0615e068bb616ae458/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from /Users/anthony/Downloads/Lecture3Examples/7. Your Second Activity/Solution/GeoQuiz/app/src/main/AndroidManifest.xml:10:9-35
+		ADDED from /Users/anthony/AndroidStudioProjects/Assignment3/GeoQuiz/app/src/main/AndroidManifest.xml:10:9-35
 	android:label
-		ADDED from /Users/anthony/Downloads/Lecture3Examples/7. Your Second Activity/Solution/GeoQuiz/app/src/main/AndroidManifest.xml:8:9-41
+		ADDED from /Users/anthony/AndroidStudioProjects/Assignment3/GeoQuiz/app/src/main/AndroidManifest.xml:8:9-41
 	android:roundIcon
-		ADDED from /Users/anthony/Downloads/Lecture3Examples/7. Your Second Activity/Solution/GeoQuiz/app/src/main/AndroidManifest.xml:9:9-54
+		ADDED from /Users/anthony/AndroidStudioProjects/Assignment3/GeoQuiz/app/src/main/AndroidManifest.xml:9:9-54
 	android:icon
-		ADDED from /Users/anthony/Downloads/Lecture3Examples/7. Your Second Activity/Solution/GeoQuiz/app/src/main/AndroidManifest.xml:7:9-43
+		ADDED from /Users/anthony/AndroidStudioProjects/Assignment3/GeoQuiz/app/src/main/AndroidManifest.xml:7:9-43
 	android:allowBackup
-		ADDED from /Users/anthony/Downloads/Lecture3Examples/7. Your Second Activity/Solution/GeoQuiz/app/src/main/AndroidManifest.xml:6:9-35
+		ADDED from /Users/anthony/AndroidStudioProjects/Assignment3/GeoQuiz/app/src/main/AndroidManifest.xml:6:9-35
 	android:theme
-		ADDED from /Users/anthony/Downloads/Lecture3Examples/7. Your Second Activity/Solution/GeoQuiz/app/src/main/AndroidManifest.xml:11:9-45
+		ADDED from /Users/anthony/AndroidStudioProjects/Assignment3/GeoQuiz/app/src/main/AndroidManifest.xml:11:9-45
 activity#com.bignerdranch.android.geoquiz.CheatActivity
-ADDED from /Users/anthony/Downloads/Lecture3Examples/7. Your Second Activity/Solution/GeoQuiz/app/src/main/AndroidManifest.xml:12:9-14:40
+ADDED from /Users/anthony/AndroidStudioProjects/Assignment3/GeoQuiz/app/src/main/AndroidManifest.xml:12:9-14:40
 	android:exported
-		ADDED from /Users/anthony/Downloads/Lecture3Examples/7. Your Second Activity/Solution/GeoQuiz/app/src/main/AndroidManifest.xml:14:13-37
+		ADDED from /Users/anthony/AndroidStudioProjects/Assignment3/GeoQuiz/app/src/main/AndroidManifest.xml:14:13-37
 	android:name
-		ADDED from /Users/anthony/Downloads/Lecture3Examples/7. Your Second Activity/Solution/GeoQuiz/app/src/main/AndroidManifest.xml:13:13-42
+		ADDED from /Users/anthony/AndroidStudioProjects/Assignment3/GeoQuiz/app/src/main/AndroidManifest.xml:13:13-42
 activity#com.bignerdranch.android.geoquiz.MainActivity
-ADDED from /Users/anthony/Downloads/Lecture3Examples/7. Your Second Activity/Solution/GeoQuiz/app/src/main/AndroidManifest.xml:15:9-23:20
+ADDED from /Users/anthony/AndroidStudioProjects/Assignment3/GeoQuiz/app/src/main/AndroidManifest.xml:15:9-23:20
 	android:exported
-		ADDED from /Users/anthony/Downloads/Lecture3Examples/7. Your Second Activity/Solution/GeoQuiz/app/src/main/AndroidManifest.xml:17:13-36
+		ADDED from /Users/anthony/AndroidStudioProjects/Assignment3/GeoQuiz/app/src/main/AndroidManifest.xml:17:13-36
 	android:name
-		ADDED from /Users/anthony/Downloads/Lecture3Examples/7. Your Second Activity/Solution/GeoQuiz/app/src/main/AndroidManifest.xml:16:13-41
+		ADDED from /Users/anthony/AndroidStudioProjects/Assignment3/GeoQuiz/app/src/main/AndroidManifest.xml:16:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/anthony/Downloads/Lecture3Examples/7. Your Second Activity/Solution/GeoQuiz/app/src/main/AndroidManifest.xml:18:13-22:29
+ADDED from /Users/anthony/AndroidStudioProjects/Assignment3/GeoQuiz/app/src/main/AndroidManifest.xml:18:13-22:29
 action#android.intent.action.MAIN
-ADDED from /Users/anthony/Downloads/Lecture3Examples/7. Your Second Activity/Solution/GeoQuiz/app/src/main/AndroidManifest.xml:19:17-69
+ADDED from /Users/anthony/AndroidStudioProjects/Assignment3/GeoQuiz/app/src/main/AndroidManifest.xml:19:17-69
 	android:name
-		ADDED from /Users/anthony/Downloads/Lecture3Examples/7. Your Second Activity/Solution/GeoQuiz/app/src/main/AndroidManifest.xml:19:25-66
+		ADDED from /Users/anthony/AndroidStudioProjects/Assignment3/GeoQuiz/app/src/main/AndroidManifest.xml:19:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/anthony/Downloads/Lecture3Examples/7. Your Second Activity/Solution/GeoQuiz/app/src/main/AndroidManifest.xml:21:17-77
+ADDED from /Users/anthony/AndroidStudioProjects/Assignment3/GeoQuiz/app/src/main/AndroidManifest.xml:21:17-77
 	android:name
-		ADDED from /Users/anthony/Downloads/Lecture3Examples/7. Your Second Activity/Solution/GeoQuiz/app/src/main/AndroidManifest.xml:21:27-74
+		ADDED from /Users/anthony/AndroidStudioProjects/Assignment3/GeoQuiz/app/src/main/AndroidManifest.xml:21:27-74
 uses-sdk
-INJECTED from /Users/anthony/Downloads/Lecture3Examples/7. Your Second Activity/Solution/GeoQuiz/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/anthony/Downloads/Lecture3Examples/7. Your Second Activity/Solution/GeoQuiz/app/src/main/AndroidManifest.xml
-INJECTED from /Users/anthony/Downloads/Lecture3Examples/7. Your Second Activity/Solution/GeoQuiz/app/src/main/AndroidManifest.xml
+INJECTED from /Users/anthony/AndroidStudioProjects/Assignment3/GeoQuiz/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/anthony/AndroidStudioProjects/Assignment3/GeoQuiz/app/src/main/AndroidManifest.xml
+INJECTED from /Users/anthony/AndroidStudioProjects/Assignment3/GeoQuiz/app/src/main/AndroidManifest.xml
 MERGED from [androidx.databinding:viewbinding:7.1.2] /Users/anthony/.gradle/caches/transforms-3/e8667ba91d1e792e9b0beaf69708e091/transformed/jetified-viewbinding-7.1.2/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.databinding:viewbinding:7.1.2] /Users/anthony/.gradle/caches/transforms-3/e8667ba91d1e792e9b0beaf69708e091/transformed/jetified-viewbinding-7.1.2/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.activity:activity-ktx:1.4.0] /Users/anthony/.gradle/caches/transforms-3/edbfaf1c36d91b713f5e52fbfc2c2a25/transformed/jetified-activity-ktx-1.4.0/AndroidManifest.xml:20:5-22:41
@@ -212,16 +212,16 @@ MERGED from [androidx.print:print:1.0.0] /Users/anthony/.gradle/caches/transform
 MERGED from [androidx.print:print:1.0.0] /Users/anthony/.gradle/caches/transforms-3/d3fce6ae6147eb9dbd48d4b6a953b2e2/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/anthony/.gradle/caches/transforms-3/7d75f8b917a8151c0df7502128ce7b16/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/anthony/.gradle/caches/transforms-3/7d75f8b917a8151c0df7502128ce7b16/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
-INJECTED from /Users/anthony/Downloads/Lecture3Examples/7. Your Second Activity/Solution/GeoQuiz/app/src/main/AndroidManifest.xml
-INJECTED from /Users/anthony/Downloads/Lecture3Examples/7. Your Second Activity/Solution/GeoQuiz/app/src/main/AndroidManifest.xml
+INJECTED from /Users/anthony/AndroidStudioProjects/Assignment3/GeoQuiz/app/src/main/AndroidManifest.xml
+INJECTED from /Users/anthony/AndroidStudioProjects/Assignment3/GeoQuiz/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /Users/anthony/Downloads/Lecture3Examples/7. Your Second Activity/Solution/GeoQuiz/app/src/main/AndroidManifest.xml
-		ADDED from /Users/anthony/Downloads/Lecture3Examples/7. Your Second Activity/Solution/GeoQuiz/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/anthony/Downloads/Lecture3Examples/7. Your Second Activity/Solution/GeoQuiz/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/anthony/AndroidStudioProjects/Assignment3/GeoQuiz/app/src/main/AndroidManifest.xml
+		ADDED from /Users/anthony/AndroidStudioProjects/Assignment3/GeoQuiz/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/anthony/AndroidStudioProjects/Assignment3/GeoQuiz/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/anthony/Downloads/Lecture3Examples/7. Your Second Activity/Solution/GeoQuiz/app/src/main/AndroidManifest.xml
-		ADDED from /Users/anthony/Downloads/Lecture3Examples/7. Your Second Activity/Solution/GeoQuiz/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/anthony/Downloads/Lecture3Examples/7. Your Second Activity/Solution/GeoQuiz/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/anthony/AndroidStudioProjects/Assignment3/GeoQuiz/app/src/main/AndroidManifest.xml
+		ADDED from /Users/anthony/AndroidStudioProjects/Assignment3/GeoQuiz/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/anthony/AndroidStudioProjects/Assignment3/GeoQuiz/app/src/main/AndroidManifest.xml
 provider#androidx.startup.InitializationProvider
 ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/anthony/.gradle/caches/transforms-3/b8f7533fcb8343f58446d65bc9c2f12e/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
 MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/anthony/.gradle/caches/transforms-3/f392b39f0e7a24d86e0b5c4e914b7a87/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:26:9-34:20

@@ -1,6 +1,7 @@
 package com.bignerdranch.android.geoquiz
 
 import android.app.Activity
+import android.content.Context
 import android.os.Bundle
 import android.util.Log
 import android.view.View
@@ -23,10 +24,13 @@ class MainActivity : AppCompatActivity() {
     ) { result ->
         // Handle the result
         if (result.resultCode == Activity.RESULT_OK) {
-            quizViewModel.isCheater =
-                result.data?.getBooleanExtra(EXTRA_ANSWER_SHOWN, false) ?: false
+            val didShowAnswer = result.data?.getBooleanExtra(EXTRA_ANSWER_SHOWN, false) ?: false
+            if (didShowAnswer) {
+                quizViewModel.cheatOnCurrentQuestion()
+            }
         }
     }
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -53,8 +57,32 @@ class MainActivity : AppCompatActivity() {
             val intent = CheatActivity.newIntent(this@MainActivity, answerIsTrue)
             cheatLauncher.launch(intent)
         }
-
         updateQuestion()
+    }
+
+    private fun updateQuestion() {
+        val questionTextResId = quizViewModel.currentQuestionText
+        binding.questionTextView.setText(questionTextResId)
+
+        if (quizViewModel.hasEverCheated) {
+            val hintMessage = if (quizViewModel.currentQuestionAnswer) {
+                "Hint: the correct answer is TRUE."
+            } else {
+                "Hint: the correct answer is FALSE."
+            }
+            Toast.makeText(this, hintMessage, Toast.LENGTH_SHORT).show()
+        }
+    }
+
+
+    private fun checkAnswer(userAnswer: Boolean) {
+        val correctAnswer = quizViewModel.currentQuestionAnswer
+        val messageResId = when {
+            quizViewModel.didCheatOnCurrentQuestion() -> R.string.judgment_toast
+            userAnswer == correctAnswer -> R.string.correct_toast
+            else -> R.string.incorrect_toast
+        }
+        Toast.makeText(this, messageResId, Toast.LENGTH_SHORT).show()
     }
 
     override fun onStart() {
@@ -80,21 +108,5 @@ class MainActivity : AppCompatActivity() {
     override fun onDestroy() {
         super.onDestroy()
         Log.d(TAG, "onDestroy() called")
-    }
-
-    private fun updateQuestion() {
-        val questionTextResId = quizViewModel.currentQuestionText
-        binding.questionTextView.setText(questionTextResId)
-    }
-
-    private fun checkAnswer(userAnswer: Boolean) {
-        val correctAnswer = quizViewModel.currentQuestionAnswer
-        val messageResId = when {
-            quizViewModel.isCheater -> R.string.judgment_toast
-            userAnswer == correctAnswer -> R.string.correct_toast
-            else -> R.string.incorrect_toast
-        }
-        Toast.makeText(this, messageResId, Toast.LENGTH_SHORT)
-            .show()
     }
 }
