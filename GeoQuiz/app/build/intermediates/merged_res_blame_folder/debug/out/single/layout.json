@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/anthony/Downloads/Lecture3Examples/7. Your Second Activity/Solution/GeoQuiz/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_cheat.xml",
+        "source": "/Users/anthony/Downloads/Lecture3Examples/7. Your Second Activity/Solution/GeoQuiz/app/src/main/res/layout/activity_cheat.xml"
+    },
+    {
+        "merged": "/Users/anthony/Downloads/Lecture3Examples/7. Your Second Activity/Solution/GeoQuiz/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_main.xml",
+        "source": "/Users/anthony/Downloads/Lecture3Examples/7. Your Second Activity/Solution/GeoQuiz/app/src/main/res/layout/activity_main.xml"
+    }
+]
