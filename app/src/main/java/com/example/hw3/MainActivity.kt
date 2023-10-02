@@ -177,3 +177,4 @@ class MainActivity : ComponentActivity() {
         outState.putFloat("b_submitAlpha", b_submitAlpha)
     }
 }
+
