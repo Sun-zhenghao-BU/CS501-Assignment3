@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\cxysz\\.gradle\\daemon\\8.0\\com.example.flashcard.app-mergeDebugResources-27:\\layout\\activity_login.xml",
+        "source": "C:\\Users\\cxysz\\.gradle\\daemon\\8.0\\com.example.flashcard.app-main-30:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "com.example.flashcard.app-mergeDebugResources-27:/layout/activity_login.xml",
+        "source": "com.example.flashcard.app-main-30:/layout/activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\cxysz\\.gradle\\daemon\\8.0\\com.example.flashcard.app-mergeDebugResources-27:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\cxysz\\.gradle\\daemon\\8.0\\com.example.flashcard.app-main-30:\\layout\\activity_main.xml"
+    }
+]

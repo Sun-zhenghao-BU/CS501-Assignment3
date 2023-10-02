@@ -1,0 +1,23 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color lavender
+color white
+drawable baseline_calculate_24
+drawable baseline_lock_24
+drawable baseline_person_24
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id loginButton
+id loginText
+id password
+id username
+layout activity_login
+layout activity_main
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Base.Theme.Flashcard
+style Theme.Flashcard
+xml backup_rules
+xml data_extraction_rules
