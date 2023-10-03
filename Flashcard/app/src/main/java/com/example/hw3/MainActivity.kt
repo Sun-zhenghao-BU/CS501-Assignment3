@@ -14,8 +14,10 @@ import androidx.activity.ComponentActivity
 import com.example.hw3.databinding.ActivityMainBinding
 import android.util.Log
 
+
 class MainActivity : ComponentActivity() {
     private lateinit var binding: ActivityMainBinding
+    private val mathOperation = MathOperation()
     var num1=0
     var num2=0
     var operaterNow = ""
@@ -66,9 +68,9 @@ class MainActivity : ComponentActivity() {
                     opNum=Random.nextInt(0,2)
                     operaterNow = opList[opNum]
                     if(operaterNow=="+"){
-                        correctAns=(num1+num2).toString()
+                        correctAns=(mathOperation.add(num1, num2)).toString()
                     } else {
-                        correctAns=(num1-num2).toString()
+                        correctAns=(mathOperation.subtract(num1, num2)).toString()
                     }
                     n1.text=num1.toString()
                     n2.text=num2.toString()
@@ -91,7 +93,7 @@ class MainActivity : ComponentActivity() {
                     questionsDone += 1
                     var ss=customerAns.text.toString()
                     Toast.makeText(this@MainActivity, "questionsWellDone：$questionsWellDone"+"questionsDone:$questionsDone", Toast.LENGTH_SHORT).show()
-                    Log.d("MyTag", "This is a debug message33333333333333333333333333")
+                    Log.d("MyTag", "This is a debug message")
                 }
                 if (questionsDone <= 9) {
                     num1 = Random.nextInt(1,100)
@@ -99,9 +101,9 @@ class MainActivity : ComponentActivity() {
                     opNum=Random.nextInt(0,2)
                     operaterNow = opList[opNum]
                     if(operaterNow=="+"){
-                        correctAns=(num1+num2).toString()
+                        correctAns=(mathOperation.add(num1, num2)).toString()
                     } else {
-                        correctAns=(num1-num2).toString()
+                        correctAns=(mathOperation.subtract(num1,num2)).toString()
                     }
                     n1.text=num1.toString()
                     n2.text=num2.toString()
@@ -128,7 +130,7 @@ class MainActivity : ComponentActivity() {
 
         customerAns.setOnFocusChangeListener { _, hasFocus ->
             if (hasFocus) {
-                val imm = getSystemService(Context.INPUT_METHOD_SERVICE) as InputMethodManager
+                val imm = getSystemService(INPUT_METHOD_SERVICE) as InputMethodManager
                 imm.showSoftInput(customerAns, InputMethodManager.SHOW_IMPLICIT)
             }
         }
@@ -167,4 +169,5 @@ class MainActivity : ComponentActivity() {
         outState.putFloat("b_submitAlpha", b_submitAlpha)
     }
 }
+
 

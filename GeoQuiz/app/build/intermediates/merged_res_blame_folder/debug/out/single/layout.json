@@ -1,10 +1,10 @@
 [
     {
-        "merged": "/Users/anthony/AndroidStudioProjects/Assignment3/GeoQuiz/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_main.xml",
-        "source": "/Users/anthony/AndroidStudioProjects/Assignment3/GeoQuiz/app/src/main/res/layout/activity_main.xml"
+        "merged": "C:\\Users\\cxysz\\OneDrive\\Documents\\MSECE\\Semester 3\\501\\Assignment\\CS501-Assignment3\\GeoQuiz\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "C:\\Users\\cxysz\\OneDrive\\Documents\\MSECE\\Semester 3\\501\\Assignment\\CS501-Assignment3\\GeoQuiz\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "/Users/anthony/AndroidStudioProjects/Assignment3/GeoQuiz/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_cheat.xml",
-        "source": "/Users/anthony/AndroidStudioProjects/Assignment3/GeoQuiz/app/src/main/res/layout/activity_cheat.xml"
+        "merged": "C:\\Users\\cxysz\\OneDrive\\Documents\\MSECE\\Semester 3\\501\\Assignment\\CS501-Assignment3\\GeoQuiz\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_cheat.xml",
+        "source": "C:\\Users\\cxysz\\OneDrive\\Documents\\MSECE\\Semester 3\\501\\Assignment\\CS501-Assignment3\\GeoQuiz\\app\\src\\main\\res\\layout\\activity_cheat.xml"
     }
 ]

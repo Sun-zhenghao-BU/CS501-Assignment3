@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "com.example.hw3.app-mergeDebugResources-72:/layout/activity_login.xml",
+        "source": "com.example.hw3.app-main-75:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.example.hw3.app-mergeDebugResources-72:/layout/activity_main.xml",
+        "source": "com.example.hw3.app-main-75:/layout/activity_main.xml"
+    }
+]
