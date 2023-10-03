@@ -13,5 +13,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Flashcard"
+rootProject.name = "HW3"
 include(":app")
+ 

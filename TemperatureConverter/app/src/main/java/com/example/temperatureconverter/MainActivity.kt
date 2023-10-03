@@ -1,6 +1,8 @@
 package com.example.temperatureconverter
 
 import android.os.Bundle
+import android.util.TypedValue
+import android.view.View
 import android.widget.SeekBar
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
@@ -27,6 +29,7 @@ class MainActivity : AppCompatActivity() {
         textViewCelsius = findViewById(R.id.Tv_C_show)
         textViewFahrenheit = findViewById(R.id.Tv_F_show)
         textViewFahrenheit.text = String.format("%.2f°F", 32.00)
+        textViewCelsius.text = String.format("%.2f°C", 0.00)
 
         seekBarCelsius.setOnSeekBarChangeListener(object : SeekBar.OnSeekBarChangeListener {
             override fun onProgressChanged(seekBar: SeekBar, progress: Int, fromUser: Boolean) {
@@ -37,10 +40,10 @@ class MainActivity : AppCompatActivity() {
                     textViewFahrenheit.text = String.format("%.2f°F", fahrenheitValue)
 
                     if (progress <= 20 && (wasBelow20 == null || !wasBelow20!!)) {
-                        Snackbar.make(seekBar, "I wish it were warmer.", Snackbar.LENGTH_SHORT).show()
+                        showCenteredSnackBar(seekBar, "I wish it were warmer.", Snackbar.LENGTH_SHORT)
                         wasBelow20 = true
                     } else if (progress > 20 && (wasBelow20 == null || wasBelow20!!)) {
-                        Snackbar.make(seekBar, "I wish it were colder.", Snackbar.LENGTH_SHORT).show()
+                        showCenteredSnackBar(seekBar, "I wish it were colder.", Snackbar.LENGTH_SHORT)
                         wasBelow20 = false
                     }
                 }
@@ -60,6 +63,14 @@ class MainActivity : AppCompatActivity() {
                     seekBarCelsius.progress = celsiusValue.toInt()
                     textViewFahrenheit.text = String.format("%.2f°F", progress.toDouble())
                     textViewCelsius.text = String.format("%.2f°C", celsiusValue)
+
+                    if (celsiusValue <= 20 && (wasBelow20 == null || !wasBelow20!!)) {
+                        showCenteredSnackBar(seekBar, "I wish it were warmer.", Snackbar.LENGTH_SHORT)
+                        wasBelow20 = true
+                    } else if (celsiusValue > 20 && (wasBelow20 == null || wasBelow20!!)) {
+                        showCenteredSnackBar(seekBar, "I wish it were colder.", Snackbar.LENGTH_SHORT)
+                        wasBelow20 = false
+                    }
                 }
             }
 
@@ -76,11 +87,20 @@ class MainActivity : AppCompatActivity() {
         })
     }
 
-    private fun celsiusToFahrenheit(celsius: Double, ): Double {
+    private fun celsiusToFahrenheit(celsius: Double): Double {
         return ((celsius * 9.0 / 5.0) + 32)
     }
 
     private fun fahrenheitToCelsius(fahrenheit: Double): Double {
         return ((fahrenheit - 32) * 5.0/9.0)
+    }
+
+    private fun showCenteredSnackBar(view: View, message: String, duration: Int) {
+        val snackbar = Snackbar.make(view, message, duration)
+
+        val textView = snackbar.view.findViewById<TextView>(com.google.android.material.R.id.snackbar_text)
+        textView.textAlignment = View.TEXT_ALIGNMENT_CENTER
+        textView.setTextSize(TypedValue.COMPLEX_UNIT_SP, 18F)
+        snackbar.show()
     }
 }
