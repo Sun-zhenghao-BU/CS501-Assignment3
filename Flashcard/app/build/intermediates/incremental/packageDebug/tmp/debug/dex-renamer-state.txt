@@ -1,16 +1,16 @@
-#Tue Oct 03 14:35:14 EDT 2023
-base.0=C\:\\Users\\cxysz\\OneDrive\\Documents\\MSECE\\Semester 3\\501\\Assignment\\CS501-Assignment3\\Flashcard\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
-base.1=C\:\\Users\\cxysz\\OneDrive\\Documents\\MSECE\\Semester 3\\501\\Assignment\\CS501-Assignment3\\Flashcard\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
-base.2=C\:\\Users\\cxysz\\OneDrive\\Documents\\MSECE\\Semester 3\\501\\Assignment\\CS501-Assignment3\\Flashcard\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\11\\classes.dex
-base.3=C\:\\Users\\cxysz\\OneDrive\\Documents\\MSECE\\Semester 3\\501\\Assignment\\CS501-Assignment3\\Flashcard\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\1\\classes.dex
-base.4=C\:\\Users\\cxysz\\OneDrive\\Documents\\MSECE\\Semester 3\\501\\Assignment\\CS501-Assignment3\\Flashcard\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\4\\classes.dex
-base.5=C\:\\Users\\cxysz\\OneDrive\\Documents\\MSECE\\Semester 3\\501\\Assignment\\CS501-Assignment3\\Flashcard\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\8\\classes.dex
-base.6=C\:\\Users\\cxysz\\OneDrive\\Documents\\MSECE\\Semester 3\\501\\Assignment\\CS501-Assignment3\\Flashcard\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\9\\classes.dex
-base.7=C\:\\Users\\cxysz\\OneDrive\\Documents\\MSECE\\Semester 3\\501\\Assignment\\CS501-Assignment3\\Flashcard\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
+#Tue Oct 03 18:10:06 EDT 2023
+base.0=/Users/anthony/AndroidStudioProjects/Assignment3/Flashcard/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
+base.1=/Users/anthony/AndroidStudioProjects/Assignment3/Flashcard/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
+base.2=/Users/anthony/AndroidStudioProjects/Assignment3/Flashcard/app/build/intermediates/dex/debug/mergeProjectDexDebug/1/classes.dex
+base.3=/Users/anthony/AndroidStudioProjects/Assignment3/Flashcard/app/build/intermediates/dex/debug/mergeProjectDexDebug/11/classes.dex
+base.4=/Users/anthony/AndroidStudioProjects/Assignment3/Flashcard/app/build/intermediates/dex/debug/mergeProjectDexDebug/4/classes.dex
+base.5=/Users/anthony/AndroidStudioProjects/Assignment3/Flashcard/app/build/intermediates/dex/debug/mergeProjectDexDebug/8/classes.dex
+base.6=/Users/anthony/AndroidStudioProjects/Assignment3/Flashcard/app/build/intermediates/dex/debug/mergeProjectDexDebug/9/classes.dex
+base.7=/Users/anthony/AndroidStudioProjects/Assignment3/Flashcard/app/build/intermediates/dex/debug/mergeExtDexDebug/classes2.dex
 path.0=classes.dex
 path.1=0/classes.dex
-path.2=11/classes.dex
-path.3=1/classes.dex
+path.2=1/classes.dex
+path.3=11/classes.dex
 path.4=4/classes.dex
 path.5=8/classes.dex
 path.6=9/classes.dex

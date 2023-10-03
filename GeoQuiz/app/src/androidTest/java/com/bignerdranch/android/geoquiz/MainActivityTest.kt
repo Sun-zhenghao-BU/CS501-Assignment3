@@ -40,16 +40,17 @@ class MainActivityTest {
         onView(withId(R.id.question_text_view)).check(matches(withText(R.string.question_oceans)))
     }
 
-//    @Test
-//    fun showsThirdQuestionAfterNextPress() {
-//        onView(withId(R.id.next_button)).perform(click())
-//        onView(withId(R.id.question_text_view)).check(matches(withText(R.string.question_mideast)))
-//    }
-//    @Test
-//    fun showsFifthQuestionAfterNextPress() {
-//        onView(withId(R.id.next_button)).perform(click())
-//        onView(withId(R.id.question_text_view)).check(matches(withText(R.string.question_americas)))
-//    }
+    @Test
+    fun showsThirdQuestionAfterNextPress() {
+        onView(withId(R.id.next_button)).perform(click())
+        onView(withId(R.id.question_text_view)).check(matches(withText(R.string.question_mideast)))
+    }
+    @Test
+    fun showsFifthQuestionAfterNextPress() {
+        onView(withId(R.id.next_button)).perform(click())
+        onView(withId(R.id.question_text_view)).check(matches(withText(R.string.question_americas)))
+    }
+    
     @Test
     fun handlesActivityRecreation() {
         onView(withId(R.id.next_button)).perform(click())

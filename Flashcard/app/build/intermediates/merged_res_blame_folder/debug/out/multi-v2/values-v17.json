@@ -4,7 +4,7 @@
             "outputFile": "com.example.hw3.app-mergeDebugResources-71:/values-v17/values-v17.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\cxysz\\.gradle\\caches\\transforms-3\\2ff6359da35c3edc386a9f650480b099\\transformed\\appcompat-1.6.1\\res\\values-v17\\values-v17.xml",
+                    "source": "/Users/anthony/.gradle/caches/transforms-3/2ff6359da35c3edc386a9f650480b099/transformed/appcompat-1.6.1/res/values-v17/values-v17.xml",
                     "from": {
                         "startLines": "2,5,9,12,15,18,22,25,29,33,37,40,43,46,50,53,57",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

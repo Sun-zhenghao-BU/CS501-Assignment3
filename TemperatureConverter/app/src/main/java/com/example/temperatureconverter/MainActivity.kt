@@ -88,13 +88,6 @@ class MainActivity : AppCompatActivity() {
         })
     }
 
-//    fun celsiusToFahrenheit(celsius: Double): Double {
-//        return ((celsius * 9.0 / 5.0) + 32)
-//    }
-//
-//    fun fahrenheitToCelsius(fahrenheit: Double): Double {
-//        return ((fahrenheit - 32) * 5.0/9.0)
-//    }
 
     private fun showCenteredSnackBar(view: View, message: String, duration: Int) {
         val snackbar = Snackbar.make(view, message, duration)
