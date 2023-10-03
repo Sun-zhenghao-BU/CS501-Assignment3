@@ -4,13 +4,19 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b553df7-598d-4809-bfa9-1565d4a5f395" name="Changes" comment="" />
+    <list default="true" id="6b553df7-598d-4809-bfa9-1565d4a5f395" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../Flashcard/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Flashcard/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TemperatureConverter/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TemperatureConverter/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TemperatureConverter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TemperatureConverter/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TemperatureConverter/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../TemperatureConverter/local.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[/Users/anthony/.android/avd/Pixel_2_API_32.avd]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\cxysz\.android\avd\Pixel_3a_API_34.avd]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -65,15 +71,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/anthony/AndroidStudioProjects/Assignment3/GeoQuiz&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "cidr.known.project.marker": "true",
+    "last_opened_file_path": "C:/Users/cxysz/OneDrive/Documents/MSECE/Semester 3/501/Assignment/CS501-Assignment3/Flashcard"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="GeoQuiz.app.main" />
