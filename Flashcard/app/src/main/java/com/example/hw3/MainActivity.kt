@@ -93,6 +93,7 @@ class MainActivity : ComponentActivity() {
                     Toast.makeText(this@MainActivity, "questionsWellDone：$questionsWellDone"+"questionsDone:$questionsDone", Toast.LENGTH_SHORT).show()
                     Log.d("MyTag", "This is a debug message33333333333333333333333333")
                 }
+
                 if (questionsDone <= 9) {
                     num1 = Random.nextInt(1,100)
                     num2 = Random.nextInt(1,20)
