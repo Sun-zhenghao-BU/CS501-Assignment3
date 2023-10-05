@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/anthony/AndroidStudioProjects/Assignment3/GeoQuiz/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-h550dp-port-v13/values-h550dp-port-v13.xml",
+            "outputFile": "C:\\Users\\cxysz\\OneDrive\\Documents\\MSECE\\Semester 3\\501\\Assignment\\CS501-Assignment3\\GeoQuiz\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-h550dp-port-v13\\values-h550dp-port-v13.xml",
             "map": [
                 {
-                    "source": "/Users/anthony/.gradle/caches/transforms-3/a5afaed4eb7d69b30540b053d8bcc22c/transformed/material-1.5.0/res/values-h550dp-port-v13/values-h550dp-port-v13.xml",
+                    "source": "C:\\Users\\cxysz\\.gradle\\caches\\transforms-3\\a5afaed4eb7d69b30540b053d8bcc22c\\transformed\\material-1.5.0\\res\\values-h550dp-port-v13\\values-h550dp-port-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
